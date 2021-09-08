@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\tolna\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\tolna\\.nuget\\packages"
+    ]
+  }
+}

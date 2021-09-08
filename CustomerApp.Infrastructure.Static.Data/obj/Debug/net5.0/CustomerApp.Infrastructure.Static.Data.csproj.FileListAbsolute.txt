@@ -1,0 +1,17 @@
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\bin\Debug\net5.0\CustomerApp.Infrastructure.Static.Data.deps.json
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\bin\Debug\net5.0\CustomerApp.Infrastructure.Static.Data.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\bin\Debug\net5.0\ref\CustomerApp.Infrastructure.Static.Data.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\bin\Debug\net5.0\CustomerApp.Infrastructure.Static.Data.pdb
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\bin\Debug\net5.0\CustomerApp.Core.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\bin\Debug\net5.0\CustomerApp.Core.Entity.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\bin\Debug\net5.0\CustomerApp.Core.Entity.pdb
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\bin\Debug\net5.0\CustomerApp.Core.pdb
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\obj\Debug\net5.0\CustomerApp.Infrastructure.Static.Data.csproj.AssemblyReference.cache
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\obj\Debug\net5.0\CustomerApp.Infrastructure.Static.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\obj\Debug\net5.0\CustomerApp.Infrastructure.Static.Data.AssemblyInfoInputs.cache
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\obj\Debug\net5.0\CustomerApp.Infrastructure.Static.Data.AssemblyInfo.cs
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\obj\Debug\net5.0\CustomerApp.Infrastructure.Static.Data.csproj.CoreCompileInputs.cache
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\obj\Debug\net5.0\CustomerApp.Infrastructure.Static.Data.csproj.CopyComplete
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\obj\Debug\net5.0\CustomerApp.Infrastructure.Static.Data.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\obj\Debug\net5.0\ref\CustomerApp.Infrastructure.Static.Data.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Infrastructure.Static.Data\obj\Debug\net5.0\CustomerApp.Infrastructure.Static.Data.pdb

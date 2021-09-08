@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "E1lLAnfmNEdGt4h2gtUWaOoEY5wVR6DdqBydsPBdfCM+9hRPde2vodFxtWdv7pbQYIeKjVBr/33PwGoQGdw8+A==",
+  "success": true,
+  "projectFilePath": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\Onion_Architecture\\Onion_Architecture.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tolna\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0-preview.7.21377.19\\microsoft.extensions.dependencyinjection.6.0.0-preview.7.21377.19.nupkg.sha512",
+    "C:\\Users\\tolna\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0-preview.7.21377.19\\microsoft.extensions.dependencyinjection.abstractions.6.0.0-preview.7.21377.19.nupkg.sha512",
+    "C:\\Users\\tolna\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0-preview.7.21377.19\\system.runtime.compilerservices.unsafe.6.0.0-preview.7.21377.19.nupkg.sha512"
+  ],
+  "logs": []
+}

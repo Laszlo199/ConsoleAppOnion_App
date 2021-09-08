@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Infrastructure.Static.Data\\CustomerApp.Infrastructure.Static.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core.Entity\\CustomerApp.Core.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core.Entity\\CustomerApp.Core.Entity.csproj",
+        "projectName": "CustomerApp.Core.Entity",
+        "projectPath": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core.Entity\\CustomerApp.Core.Entity.csproj",
+        "packagesPath": "C:\\Users\\tolna\\.nuget\\packages\\",
+        "outputPath": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tolna\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\tolna\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core\\CustomerApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core\\CustomerApp.Core.csproj",
+        "projectName": "CustomerApp.Core",
+        "projectPath": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core\\CustomerApp.Core.csproj",
+        "packagesPath": "C:\\Users\\tolna\\.nuget\\packages\\",
+        "outputPath": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tolna\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core.Entity\\CustomerApp.Core.Entity.csproj": {
+                "projectPath": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core.Entity\\CustomerApp.Core.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\tolna\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Infrastructure.Static.Data\\CustomerApp.Infrastructure.Static.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Infrastructure.Static.Data\\CustomerApp.Infrastructure.Static.Data.csproj",
+        "projectName": "CustomerApp.Infrastructure.Static.Data",
+        "projectPath": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Infrastructure.Static.Data\\CustomerApp.Infrastructure.Static.Data.csproj",
+        "packagesPath": "C:\\Users\\tolna\\.nuget\\packages\\",
+        "outputPath": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Infrastructure.Static.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tolna\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core.Entity\\CustomerApp.Core.Entity.csproj": {
+                "projectPath": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core.Entity\\CustomerApp.Core.Entity.csproj"
+              },
+              "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core\\CustomerApp.Core.csproj": {
+                "projectPath": "C:\\Rider\\RiderProjects\\ConsoleAppOnion_App\\CustomerApp.Core\\CustomerApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\tolna\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

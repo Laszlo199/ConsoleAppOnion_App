@@ -1,0 +1,15 @@
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\bin\Debug\net5.0\CustomerApp.Core.deps.json
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\bin\Debug\net5.0\CustomerApp.Core.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\bin\Debug\net5.0\ref\CustomerApp.Core.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\bin\Debug\net5.0\CustomerApp.Core.pdb
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\bin\Debug\net5.0\CustomerApp.Core.Entity.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\bin\Debug\net5.0\CustomerApp.Core.Entity.pdb
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\obj\Debug\net5.0\CustomerApp.Core.csproj.AssemblyReference.cache
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\obj\Debug\net5.0\CustomerApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\obj\Debug\net5.0\CustomerApp.Core.AssemblyInfoInputs.cache
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\obj\Debug\net5.0\CustomerApp.Core.AssemblyInfo.cs
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\obj\Debug\net5.0\CustomerApp.Core.csproj.CoreCompileInputs.cache
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\obj\Debug\net5.0\CustomerApp.Core.csproj.CopyComplete
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\obj\Debug\net5.0\CustomerApp.Core.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\obj\Debug\net5.0\ref\CustomerApp.Core.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\CustomerApp.Core\obj\Debug\net5.0\CustomerApp.Core.pdb
