@@ -38,21 +38,37 @@ namespace WebApplicationForTheCustomer.Controllers
 
 
         [HttpGet("{id}")]
-        public Customer ReadById(int id)
+        public ActionResult<Customer> ReadById(int id)
         {
-            return _customerService.FindCustomerById(id);
+            if (id <= 0)
+            {
+                return BadRequest("Id must be Bigger then 0");
+            }
+
+            return _customerService.FindCustomerByIdIncludeOrders(id);
         }
         
         [HttpPut("{id}")]
-        public Customer Update(int id, Customer customer)
+        public ActionResult<Customer> Update(int id,[FromBody]Customer customer)
         {
-            return _customerService.UpdateCustomer(customer);
+            if (id<1 || id != customer.Id)
+            {
+                BadRequest("bazmeg a kurwa anyad LOL");
+            }
+
+            
+            return Ok(_customerService.UpdateCustomer(customer));
         }
         
         [HttpDelete("{id}")]
-        public Customer Delete(int id)
+        public ActionResult<Customer> Delete(int id)
         {
-            return _customerService.DeleteCustomer(id);
+            var customer =_customerService.DeleteCustomer(id);
+            if (customer == null) return StatusCode(404, "Not found"+id);
+            {
+                
+            }
+            return Ok(customer.Id + ("Deleted"));
         }
     }
 }

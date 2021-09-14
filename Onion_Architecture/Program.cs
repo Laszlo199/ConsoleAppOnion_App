@@ -22,6 +22,7 @@ namespace Onion_Architecture
         serviceCollection.AddScoped<ICustomerRepository, CustomerRepositories>();
         serviceCollection.AddScoped<ICustomerService, CustomerService>();
         serviceCollection.AddScoped<IPrinter, Printer>();
+        
         var serviceProvider = serviceCollection.BuildServiceProvider();
         var printer = serviceProvider.GetRequiredService<IPrinter>();
         printer.StartUI();

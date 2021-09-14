@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using CustomerApp.Core.DomainService;
 using CustomerApp.Core.Entity;
 
@@ -7,58 +8,73 @@ namespace CustomerApp.Infrastructure.Static.Data.Repositories
     public class CustomerRepositories: ICustomerRepository
     {
         static int id = 1;
-        private static List<Customer> _customers = new List<Customer>();
-        
+
+
+        public CustomerRepositories()
+        {
+            if (FakeDB.Customers.Count >= 1) return;
+            var customer1 = new Customer()
+            {
+                Id = FakeDB.Id++,
+                FirstName = "Bob",
+                LastName = "Toka",
+                Address = "Toka street 222"
+            };
+                FakeDB.Customers.Add(customer1);
+
+                var customer2 = new Customer()
+                {
+                    Id = FakeDB.Id++,
+                    FirstName = "Andi",
+                    LastName = "Hopi",
+                    Address = "Skt.KukuPopen 345"
+                };
+                FakeDB.Customers.Add(customer2);
+        }
         public Customer Create(Customer customer)
         {
-            customer.Id = id++;
-            _customers.Add(customer);
+            customer.Id = FakeDB.Id++;
+            FakeDB.Customers.Add(customer);
             return customer;
             
-        }x½
+        }
 
         public Customer ReadById(int id)
         {
-            foreach (var customer in _customers)
+            return FakeDB.Customers.Select(c => new Customer()
             {
-                if (customer.Id == id)
-                {
-                    return customer;
-                }
-            }
-
-            return null;
+                Id = c.Id,
+                FirstName = c.FirstName,
+                LastName = c.LastName,
+                Address = c.Address
+            }).FirstOrDefault(c => c.Id == id);
         }
 
         public IEnumerable<Customer> ReadAll()
         {
-            return _customers;
+            return FakeDB.Customers;
         }
 
         public Customer Delete(int id)
         {
-            var customerFound = this.ReadById(id);
-            if (customerFound != null)
-            {
-                _customers.Remove(customerFound);
-                return customerFound;
-            }
-
-            return null;
+            var customerFound = ReadById(id);
+            if (customerFound == null) return null;
+            
+            FakeDB.Customers.Remove(customerFound);
+            return customerFound;
         }
 
         public Customer Update(Customer customerUpdate)
         {
-            var customerFromDB = this.ReadById(customerUpdate.Id);
+            var customerFromDB = ReadById(customerUpdate.Id);
 
-            if (customerFromDB != null)
-            {
+            if (customerFromDB == null) return null;
+            
                 customerFromDB.FirstName = customerUpdate.FirstName;
                 customerFromDB.FirstName = customerUpdate.LastName;
                 customerFromDB.FirstName = customerUpdate.Address;
-            }
-
-            return null;
+                
+            return customerFromDB;
         }
     }
 }

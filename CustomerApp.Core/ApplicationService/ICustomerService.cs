@@ -13,6 +13,7 @@ namespace CustomerApp.Core.ApplicationService
         Customer NewCustomer(string firstName, string lastName, string address);
         Customer CreateCustomer(Customer cust);
         List<Customer> GetAllCustomerByFirstName(string name);
+        Customer FindCustomerByIdIncludeOrders(int id);
         
     }
 }

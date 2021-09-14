@@ -21,3 +21,6 @@ C:\Rider\RiderProjects\ConsoleAppOnion_App\Onion_Architecture\bin\Debug\net5.0\C
 C:\Rider\RiderProjects\ConsoleAppOnion_App\Onion_Architecture\bin\Debug\net5.0\CustomerApp.Core.pdb
 C:\Rider\RiderProjects\ConsoleAppOnion_App\Onion_Architecture\bin\Debug\net5.0\CustomerApp.Infrastructure.Static.Data.pdb
 C:\Rider\RiderProjects\ConsoleAppOnion_App\Onion_Architecture\obj\Debug\net5.0\Onion_Architecture.csproj.CopyComplete
+C:\Rider\RiderProjects\ConsoleAppOnion_App\Onion_Architecture\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\Onion_Architecture\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Rider\RiderProjects\ConsoleAppOnion_App\Onion_Architecture\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

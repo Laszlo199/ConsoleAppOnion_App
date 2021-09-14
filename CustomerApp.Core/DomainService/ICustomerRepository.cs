@@ -10,5 +10,6 @@ namespace CustomerApp.Core.DomainService
         IEnumerable<Customer> ReadAll();
         Customer Delete(int id);
         Customer Update(Customer customerUpdate);
+       
     }
 }
